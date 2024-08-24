@@ -1,0 +1,169 @@
+<!--CodSoft Internship (AUG 1-AUG 31) 2024
+    Task 1: LANDING PAGE
+    Programmer: Deeksha Prashant Mane
+    Technologies Used: HTML,CS,JavaScript
+    Project Description: Landing Page of an online platform providing programming courses (CODEXA)
+    Colour Combination: Colour Palette( https://colorhunt.co/palette/17153b2e236c433d8bc8acd6)-->
+    
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Deeksha Prashant Mane">
+    <meta name="description" content="Landing Page of an Online PLatform providing Programming Courses">
+    <title>Codexa</title>
+    <link rel="icon" href="codexa logo new.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <!--Navbar-->
+    <nav id="top">
+        <img src="codexa logo new.jpg" alt="Codexa Logo" class="logo">
+        <div class="search_bar">
+            <input type="search" placeholder="Search Courses" name="search_bar" id="search_bar" autofocus>
+        </div>
+        <div class="navbar">
+            <ul class="navbar_options">
+                <!-- <li><a href="#" style="margin-left: 200px;">*</a></li> -->
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Contact Us</a></li> &nbsp;&nbsp;&nbsp;
+            </ul>
+        </div>
+        <button type="button" class="sign_up">Sign Up</button>
+    </nav> 
+    
+    <!--Visually Appealing Section (After Navbar)-->
+    <div class="decor">
+        <div class="company_name">
+            <h1 class="codexa">Codexa</h1>
+            <h3 class="explore">Explore Courses</h3>
+            <button type="button" class="getStarted">Get Started</button>
+            <p id="typewriter"></p>
+        </div>
+        <!-- <div class="image">
+            <img src="programming image 2.jpg" alt="Animated Programming Image" id="pro_image">
+        </div> -->
+    </div> 
+    
+    <!--Main Content (Courses Section)-->
+
+    <!--Free Courses Section-->
+    <h2 class="free">Free Courses</h2>
+    <div class="free_courses">
+        <div class="free_course_options">
+            <img src="html logo.png" alt="HTML Free Course" class="free-img"><br><br>
+            <b><p class="intro">Learn HTML with 'Codexa' today!</p></b>
+        </div>
+
+        <div class="free_course_options">
+            <img src="css logo.png" alt="CSS Free Course" class="free-img"><br><br>
+            <b><p class="intro">Learn to style Web Pages with CSS!!</p></b>
+        </div>
+
+        <div class="free_course_options">
+            <img src="js logo.png" alt="JavaScript Free Course" class="free-img"><br><br>
+            <b><p class="intro">Bring your web page to Life with JS!</p></b>
+        </div>
+
+        <div class="free_course_options">
+            <img src="bootstrap logo.png" alt="Bootstrap Free Course" class="free-img"><br><br>
+            <b><p class="intro">Learn Bootstrap Today for Free!</p></b>
+        </div>
+
+        <a href="#"><img src="right_arrow.png" alt="Rightward Arrow" class="right_arrow"></a>
+    </div>
+
+    <!--Paid Courses Section-->
+    <h2 class=" paid free">Paid Courses</h2>
+    <div class="paid_courses free_courses">
+        <div class="paid_courses_options free_course_options">
+            <img src="DSA image.png" alt="DSA Paid Course" class="free-img">
+            <b><p class="intro">Learn DSA with our Expert Course</p></b>
+        </div>
+
+        <div class="paid_courses_options free_course_options">
+            <img src="java.logo.png" alt="Java Paid Course" class="free-img">
+            <b><p class="intro">Gain Excellence in JAVA!</p></b>
+        </div>
+
+        <div class="paid_courses_options free_course_options">
+            <img src="python logo.jfif" alt="Python Paid Course" class="free-img">
+            <b><p class="intro">Python Expert Course</p></b>
+        </div>
+
+        <div class="paid_courses_options free_course_options">
+            <img src="c++ logo.png" alt="C++ Paid Course" class="free-img">
+            <b><p class="intro">C++ Advanced</p></b>
+        </div>
+        <a href="#"><img src="right_arrow.png" alt="Rightward Arrow" class="right_arrow"></a>
+    </div>
+    <button type="button" class="FAQ">FAQs</button><br><br><br>
+
+    <div class="FAQ_section">
+        <div class="accordion">
+            <div class="question">
+                <p>What is Web Development ?</p>
+            </div>
+            <div class="answer">
+                <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.</p>
+            </div>
+        </div>
+ 
+        <div class="accordion">
+            <div class="question">
+                <p>What is FrontEnd Development ?</p>
+            </div>
+ 
+            <div class="answer">
+                <p>
+                    A Front-End Developer is someone who creates websites and web applications.
+                    The difference between Front-End and Back-End is that Front-End refers to how a web page looks, while back-end refers to how it works.
+                    You can think of Front-End as client-side and Back-End as server-side.
+                </p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="question">
+                <p>What is BackEnd Development ?</p>
+            </div>
+            <div class="answer">
+                <p>Back-end developers are the experts who build and maintain the mechanisms that process data and perform actions on websites.</p>
+            </div>
+        </div>
+    </div>
+
+    <a href="#"><img src="downward arrow.jfif" alt="Downward Arrow" class="downward"></a>
+    <br><br>
+
+    <div class="company_info">
+        <br><br>
+        <div class="connect">
+            <a href="#"><img src="youtube.png" alt="You Tube Logo" class="social_media"></a>
+            <a href="#"><img src="insta logo.jfif" alt="Instagram" class="social_media"></a>
+            <a href="#"><img src="x logo.png" alt="X Logo" class="social_media"></a>
+            <a href="#"><img src="LinkedIn.png" alt="LinkedIn Logo" class="social_media"></a>
+        </div>
+    <br>
+    <div class="copyright">
+        <h3 align="center" class="copyright_h3">&copy;2024,Codexa.com,Inc. or it's affiliates <br>Made with &hearts; by Deeksha Mane</h3>
+    </div>
+    <br><br>
+    
+    <!-- <button type="button" class="top_button"><a href="#top" id="top-btn">Top</a></button> -->
+    <div class="top_btn">
+        <a href="#top" id="top-btn">Top</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>  

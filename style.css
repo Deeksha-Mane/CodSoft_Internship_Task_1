@@ -1,0 +1,787 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+} 
+
+nav { 
+    display: flex;
+    flex-direction: row;
+    color: black;
+    background-color:#c7d0fb;
+    border-radius: 10px;
+    height: 63px;
+    /* box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1); */
+    border: inset;
+    opacity: 0.8;
+}
+
+.logo {
+    height: 45px;
+    width: 45px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-left: 4px;
+}
+
+.logo:hover {
+    transform: scale(1.15);
+    box-shadow: 2px 2px 7px black;
+    cursor: pointer;
+}
+
+#home {
+    margin-left: 240px;
+}
+
+.navbar_options {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbar_options li {
+    margin: 15px;
+    padding: 5px;
+}
+
+.navbar_options li a {
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+}
+
+.navbar_options li a:hover {
+    border-bottom: 2px solid white;
+    transform: scale(1.1);
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.sign_up {
+    height: 35px;
+    width: 70px;
+    margin-top:13px ;
+    border-radius: 10px;
+    background-color: #112D4E;
+    color: white;
+    border: 2px double white;
+}
+
+.sign_up:hover {
+    background-color: #F9F7F7;
+    transition: 0.25s;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.search_bar {
+    margin-top: 15px;
+    margin-left: 250px;
+}
+
+#search_bar {
+    height: 32px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#search_bar:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 7px black;
+    cursor: pointer;
+}
+
+.decor {
+    display: flex;
+    flex-direction: row;
+    height: 370px;
+    width: 100%;
+    /* background-color: #F9F7F7; */
+    background-image: url("bg-img1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.95;
+}
+
+.company_name {
+    height:350px;
+    width: 50%;
+}
+
+.codexa {
+    font-size: 80px;
+    height: 100px;
+    width: 557.5px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 70px;
+    color: #efefff;
+}
+
+.explore {
+    height: 40px;
+    width: 557.5px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 70px;
+    color: white;
+}
+
+.getStarted {
+    height:35px;
+    width: 150px;
+    margin-left: 270px;
+    border-radius: 10px;
+    background-color:#A6B1E1;
+    color:black;
+    font-size: medium;
+}
+
+.getStarted:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+@keyframes writer {
+    0% { content: "";font-size: 10px;}
+    10% { content: "D";font-size: 11px;}
+    15% { content: "Dri";font-size: 12px;}
+    25% { content: "Drive";font-size: 13px;}
+    30% { content: "Driven ";font-size: 14px;}
+    35% { content: "Driven by";font-size: 15px;}
+    40% { content: "Driven by Cu";font-size: 16px;}
+    43% { content: "Driven by Curi";font-size: 17px;}
+    45% { content: "Driven by Curios";font-size: 18px;}
+    50% { content: "Driven by Curiosity,";font-size: 19px;}
+    60% { content: "Driven by Curiosity,Fue";font-size: 20px;}
+    70% { content: "Driven by Curiosity,Fueled";font-size: 21px;}
+    80% { content: "Driven by Curiosity,Fueled by";font-size: 22px;}
+    90% { content: "Driven by Curiosity,Fueled by Co";font-size: 23px;}
+    100% { content: "Driven by Curiosity,Fueled by Code !";font-size: 24px;}
+}
+
+#typewriter::before {
+    content: "";
+    animation: writer 5s linear infinite;
+    color: white;
+}
+
+@keyframes cursor {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+#typewriter::after {
+    content: "|";
+    animation: cursor 0.3s alternate infinite;
+}
+
+#typewriter {
+    height: 20px;
+    font-size: large;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.free_courses {
+    background-color: #DBE2EF ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* height: 400px; */
+}
+
+.free {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.free_course_options {
+        height: 280px;
+        width: 220px;
+        border-radius: 10px;
+        padding: 5px;
+        margin-top: 50px;
+        border: 2px solid black;
+        background-color: white;
+}
+
+.free_course_options:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 9px black;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.free-img {
+    height: 220px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+
+.intro {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+.right_arrow {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 170px;
+}
+
+.FAQ {
+    height: 40px;
+    width: 130px;
+    font-size: 25px;
+    margin-left: 630px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #424874;
+    color: white;
+}
+
+.FAQ:hover {
+    transform: scale(1.09);
+    background-color: #DBE2EF;
+    color: black;
+    transition: 0.5s;
+}
+
+
+.FAQ_section {
+    width: 650px;
+    margin: auto;
+}
+ 
+.accordion {
+    border-radius: 10px;
+    background-color: #DBE2EF;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.accordion:hover {
+    cursor: pointer;
+}
+ 
+.question p {
+    margin: 5px;
+    padding: 5px;
+    font-family: Verdana;
+    font-size: 20px;
+}
+ 
+.answer p {
+    border-radius: 10px;
+    background-color: #A6B1E1;
+    padding: 8px;
+    margin: 5px;
+}
+
+.answer {
+    display: none;
+}
+
+.accordion.active .answer {
+    display: block;
+}
+
+.downward {
+    height: 50px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 660px;
+}
+
+.social_media {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin: 1px;
+}
+
+.connect {
+    margin-left: 605px;
+}
+
+.company_info {
+    background-color: #424874;
+}
+
+.copyright {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+#top-btn {
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    padding-left: 14px;
+}  
+
+.top_btn {
+    height: 35px;
+    width: 70px;
+    background-color: #DBE2EF;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 1100px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.top_btn:hover {
+    transform: scale(1.2);
+}
+
+.copyright_h3 {
+    font-weight: 300;
+}
+
+
+/*For screens having 580px width and above but less than 680px*/
+@media only screen and (min-width:580px){
+
+    .codexa{margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 10px;}
+    
+    .explore{margin-bottom: 15px;
+        margin-left: 10px;}
+
+    .getStarted {margin-left: 220px;}
+
+
+    .search_bar{display: none;}
+
+    #typewriter{ margin-left: 30px;}
+
+    .decor{height: 500px;
+        width: 100%;}
+
+    .free_courses{
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 50px;
+            justify-content:space-evenly;
+        }
+
+    .right_arrow {display: none;}
+
+    .accordion {
+            padding: 6px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            width: 400px;
+            margin-left: 20%;
+        }
+    
+    #home {margin-left: 5px;}
+    
+    .FAQ{margin-left: 48%;}
+    
+    .downward{margin-left: 50%;}
+        
+    .connect {margin-left: 44%;}
+}
+
+
+/*For screens having 680px width and above but less than 765px*/
+@media only screen and (min-width:680px){
+    .search_bar{display: none;}
+
+    .navbar_options li a{
+        margin-left: 5px;
+    font-size: 20px;}
+
+    .logo{margin-left:10px;
+        margin-top: 7px;}
+
+    #typewriter{ margin-left: 30px;}
+
+    .decor{height: 500px;
+        width: 100%;}
+
+    .free_courses{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+        justify-content:space-evenly;
+    }
+
+    .free_course_options {
+        height: 210px;
+        width: 18%;
+        margin-top: 45px;
+    }
+
+    .free-img{height: 100px;
+        width: 90px;
+        margin-left: 20%;
+        margin-top: 10px;
+        margin-bottom: 10px;}
+
+
+    .right_arrow {display: none;}
+
+    .accordion {
+        padding: 6px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        width: 400px;
+        margin-left: 20%;
+    }
+
+    #home {margin-left: 5px;}
+
+    .FAQ{margin-left: 48%;}
+
+    .downward{margin-left: 50%;}
+    
+    .connect {margin-left: 44%;}
+}
+
+
+/*For screens having 765px width and above but less than 800px*/
+@media only screen and (min-width:765px){
+    #search_bar {
+        height: 32px;
+        width: 150px;
+    }
+
+    .search_bar{margin-left: 30px;
+        margin-top: 15px;}
+
+    #home {margin-left: 10px;}
+
+    #typewriter{ margin-left: 30px;}
+
+    .codexa{margin-top: 90px;
+        margin-bottom: 20px;}
+
+    .free_course_options {
+        height: 230px;
+        width: 18%;
+        margin-top: 45px;
+    }
+
+    .free-img{height: 140px;
+        width: 100px;
+        margin-left: 12%;
+        margin-top: 10px;}
+
+    .free_courses {
+            height: 330px; }
+
+    .accordion {
+                padding: 10px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 400px;
+                text-align: center;
+            }
+
+    .right_arrow {display: block;}
+
+    .navbar_options li a{
+                margin-left: 5px;
+            font-size: 15px;}
+
+    .sign_up {margin-left: 5px;}
+
+    .FAQ{margin-left: 48%;}
+
+    .downward{margin-left: 50%;}
+    
+    .connect {margin-left: 44%;}
+}
+
+
+/*For screens having 800px width and above but less than 1030px*/
+@media only screen and (min-width:800px){
+
+    #search_bar {
+        height: 32px;
+        width: 150px;
+    }
+
+    .right_arrow {display: block;}
+
+    .accordion {
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 600px;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    .search_bar{margin-left: 40px;
+        margin-top: 20px;}
+
+    #home {margin-left: 5px;}
+
+    .decor{height: 550px;
+           width: 100%;}
+
+    #typewriter{ margin-left: 30px;}
+
+    nav{ height: 75px;
+            opacity: 0.9;}
+
+    .navbar_options li a{
+            font-size: 17px;
+            margin-left: 3px; }
+
+    .free_course_options {
+            height: 250px;
+            width: 18%;
+            margin-top: 45px;
+        }
+    
+    .free-img{height: 170px;
+            width: 120px;
+            margin-left: 12%;
+            margin-top: 10px;}
+
+    .sign_up {margin-left: 10px;}
+
+    .FAQ{margin-left: 48%;}
+
+    .downward{margin-left: 50%;}
+    
+    .connect {margin-left: 44%;}
+}
+
+
+/*For screens having 1030px width and above but less than 1315px*/
+@media only screen and (min-width:1030px){
+    .search_bar{margin-left: 70px;
+        margin-top: 20px;}
+
+    #home {margin-left: 90px;}
+
+    .accordion {
+        border-radius: 10px;
+        background-color: #DBE2EF;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 600px;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    .right_arrow {display: block;}
+
+    .decor{height: 550px;
+        width: 100%;}
+
+    .sign_up {margin-left: 10px;}
+
+    .codexa{margin-top: 90px;
+        margin-bottom: 20px;}
+    
+    .explore{margin-bottom: 15px;}
+
+    nav{ height: 75px;
+        opacity: 0.9;}
+
+    .free_course_options {
+            height: 280px;
+            width: 18%;
+            margin-top: 45px;
+        }
+
+    .free-img{height: 200px;
+            width: 150px;
+            margin-left: 12%;
+        margin-top: 10px;}
+
+    .FAQ{margin-left: 48%;}
+
+    .downward{margin-left: 50%;}
+    
+    .connect {margin-left: 44%;}
+}
+
+
+/*For screens having 1315px width and above but less than 2000px*/
+@media only screen and (min-width:1315px){
+
+    .free {
+        text-align: center;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 30px;
+    } 
+    
+    .right_arrow {display: block;}
+
+    .accordion {
+        border-radius: 10px;
+        background-color: #DBE2EF;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 600px;
+        text-align: center;
+    }
+
+    .search_bar{margin-left: 100px;
+        margin-top: 20px;}
+
+    .logo{margin-left:10px;
+    margin-top: 12px;}
+
+    #home {margin-left: 250px;}
+
+    .free_course_options {
+        height: 280px;
+        width: 18%;
+        margin-top: 50px;
+    }
+
+    .free-img{height: 200px;
+            width: 170px;
+            margin-left: 20%;
+        margin-top: 10px;}
+
+    .navbar_options li a{
+            font-size: 20px;
+            margin-left: 20px;
+            margin-top: 50px; }
+
+    .navbar_options li a:hover {
+            transform: scale(1.1);
+            transition: 0.1s;}
+
+    .intro {text-align: center;
+            font-size: 15px;}
+
+    nav{ height: 75px;
+    opacity: 0.9;}
+
+    .decor{height: 550px;
+        width: 100%;}
+
+    .sign_up {margin-left: 20px;}
+
+    .codexa{margin-top: 90px;
+        margin-bottom: 20px;}
+    
+    .explore{margin-bottom: 15px;}
+    
+    .free_courses {
+            height: 380px; }
+
+    #typewriter{ margin-left: 30px;}
+
+    .FAQ{margin-left: 48%;}
+
+    .downward{margin-left: 50%;}
+
+    .connect {margin-left: 44%;}
+
+    .copyright{text-align: center;}
+}
+
+
+/*For screens having 2000px width and above */
+@media only screen and (min-width:2000px){
+    .free {
+        text-align: center;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 30px;
+    } 
+
+    .right_arrow {display: block;} 
+
+    .free_course_options {
+        height: 280px;
+        width: 18%;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .free-img {margin: auto;
+               text-align: center;
+               margin-left: 27%;}
+
+    .intro {text-align: center;
+    font-size: 25px;}
+
+    .navbar_options li a{
+        font-size: 25px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+
+    #home {margin-left: 850px;}
+
+    nav{ height: 80px;}
+
+    .sign_up {margin-left: 30px;
+    font-size: 25px;
+    width: 110px;
+    height: 50px;
+}
+
+    .search_bar{margin-top: 25px;}
+
+    .logo{margin-top: 15px;}
+
+    .decor{height: 500px;
+           width: 100%;}
+
+    .codexa{margin-top: 90px;
+    margin-bottom: 20px;}
+
+    .explore{margin-bottom: 15px;}
+
+    .free_courses {
+        height: 450px;
+    }
+
+    .FAQ{text-align: center;
+        margin: auto;
+        height: 50px;
+        width: 150px;
+        font-size: 30px;
+        margin-left: 46%;
+        margin-top: 30px;}
+
+    .accordion{padding: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        width: 600px;
+        text-align: center;}
+
+    .downward{margin-left: 1250px;}
+
+    .connect {margin-left: 46%;}
+
+    .copyright{text-align: center;}
+}
