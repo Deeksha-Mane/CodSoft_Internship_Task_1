@@ -1,5 +1,5 @@
 # CodSoft_Internship_Task_1
-CodSoft Internship Task 1: Landing Page
+CodSoft Internship Task 1: Landing Page 
 Technologies Used: HTML,CSS,JavaScript
 As a part of my internship, I have developed and designed a landing page of a website which provides online programming courses to the programmers.The goal was to design a visually appealing and user-friendly page that actively promotes the courses and also aims to engage potential students,showcase course features and drive enrollments.
 This landing page ensures a seamless user experiencce across various devices and screen sizes.The CTA's are placed strategically to encourage users to explore the available courses and enroll.I have also incorporated some interactive features to enhance user engagement.
