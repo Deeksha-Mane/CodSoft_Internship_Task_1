@@ -467,7 +467,8 @@ nav {
     }
 
     .search_bar{margin-left: 30px;
-        margin-top: 15px;}
+        margin-top: 15px;
+        display:none;}
 
     #home {margin-left: 10px;}
 
@@ -502,7 +503,8 @@ nav {
 
     .navbar_options li a{
                 margin-left: 5px;
-            font-size: 15px;}
+                font-size: 15px;
+                text-shadow: 1px 1px white;}
 
     .sign_up {margin-left: 5px;}
 
@@ -534,21 +536,23 @@ nav {
     }
 
     .search_bar{margin-left: 40px;
-        margin-top: 20px;}
+                margin-top: 20px;
+                display: inline;}
 
-    #home {margin-left: 5px;}
+    #home {margin-left: 15px;}
 
     .decor{height: 550px;
            width: 100%;}
 
     #typewriter{ margin-left: 30px;}
 
-    nav{ height: 75px;
+    nav{ height: 70px;
             opacity: 0.9;}
 
     .navbar_options li a{
             font-size: 17px;
-            margin-left: 3px; }
+            margin-left: 3px;
+            text-shadow: 1px 1px white;}
 
     .free_course_options {
             height: 250px;
@@ -578,6 +582,8 @@ nav {
 
     #home {margin-left: 90px;}
 
+    .navbar_options li a{text-shadow: 1px 1px white;}
+
     .accordion {
         border-radius: 10px;
         background-color: #DBE2EF;
@@ -601,7 +607,7 @@ nav {
     
     .explore{margin-bottom: 15px;}
 
-    nav{ height: 75px;
+    nav{ height: 70px;
         opacity: 0.9;}
 
     .free_course_options {
@@ -668,7 +674,8 @@ nav {
     .navbar_options li a{
             font-size: 20px;
             margin-left: 20px;
-            margin-top: 50px; }
+            margin-top: 50px;
+            text-shadow: 1px 1px white;}
 
     .navbar_options li a:hover {
             transform: scale(1.1);
@@ -677,7 +684,7 @@ nav {
     .intro {text-align: center;
             font-size: 15px;}
 
-    nav{ height: 75px;
+    nav{ height: 70px;
     opacity: 0.9;}
 
     .decor{height: 550px;
@@ -737,6 +744,7 @@ nav {
         font-size: 25px;
         margin-left: 30px;
         margin-top: 40px;
+        text-shadow: 1px 1px white;
     }
 
     #home {margin-left: 850px;}
