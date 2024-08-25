@@ -580,6 +580,10 @@ nav {
     .search_bar{margin-left: 70px;
         margin-top: 20px;}
 
+    #search_bar {
+            height: 32px;
+            width: 250px;}
+
     #home {margin-left: 90px;}
 
     .navbar_options li a{text-shadow: 1px 1px white;}
@@ -654,6 +658,10 @@ nav {
 
     .search_bar{margin-left: 100px;
         margin-top: 20px;}
+
+    #search_bar {
+            height: 32px;
+            width: 250px;}
 
     .logo{margin-left:10px;
     margin-top: 12px;}
@@ -758,6 +766,10 @@ nav {
 }
 
     .search_bar{margin-top: 25px;}
+
+    #search_bar {
+            height: 32px;
+            width: 250px;}
 
     .logo{margin-top: 15px;}
 
